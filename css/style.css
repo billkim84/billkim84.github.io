@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     top: 0;
     z-index: 999;
-    margin: 20px 20px 0 0;
+    margin: 24px 20px 0 0;
     border: 0;
     background: none;
     font-size: 24px;
@@ -296,6 +296,10 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.4s;
     outline: none;
     cursor: pointer;
+}
+
+.nav-toggle-fixed {
+    margin: 20px 20px 0 0 !important;
 }
 
 #mobile-nav-toggle i {

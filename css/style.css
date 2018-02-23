@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: #1dc8cd;
+    color: #38b4fc;
     transition: 0.5s;
 }
 
@@ -28,11 +28,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+/*61ccef 38b4fc */
+
+
 /* Back to top button */
 .back-to-top {
     position: fixed;
     display: none;
-    background: linear-gradient(45deg, #1de099, #1dc8cd);
+    background: linear-gradient(45deg, #61ccef, #38b4fc);
     color: #fff;
     padding: 2px 20px 8px 20px;
     font-size: 16px;
@@ -43,13 +46,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-    background: linear-gradient(45deg, #1de099, #1dc8cd);
+    background: linear-gradient(45deg, #61ccef, #38b4fc);
     color: #fff;
     outline: none;
 }
 
 .back-to-top:hover {
-    background: #1dc8cd;
+    background: #38b4fc;
     color: #fff;
 }
 
@@ -104,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-    background: linear-gradient(45deg, #1de099, #1dc8cd);
+    background: linear-gradient(45deg, #61ccef, #38b4fc);
     padding: 20px 0;
     height: 72px;
     transition: all 0.5s;
@@ -117,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     /*height: 100vh;*/
     height: 70vh;
-    background: linear-gradient(45deg, rgba(29, 224, 153, 0.5), rgba(29, 200, 205, 0.5)), url("../img/epilogue-bg.jpg") center top no-repeat fixed;
+    background: linear-gradient(45deg, rgba(97, 204, 239, 0.5), rgba(56, 180, 252, 0.5)), url("../img/epilogue-bg.jpg") center top no-repeat fixed;
     background-size: cover;
     position: relative;
 }
@@ -182,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .btn-get-started:hover {
-    color: #1dc8cd;
+    color: #38b4fc;
     background: #fff;
 }
 
@@ -272,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-    color: #1dc8cd;
+    color: #38b4fc;
 }
 
 .nav-menu ul ul {
@@ -359,11 +362,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-    color: #1dc8cd;
+    color: #38b4fc;
 }
 
 #mobile-nav ul .menu-item-active {
-    color: #1dc8cd;
+    color: #38b4fc;
 }
 
 #mobile-body-overly {
@@ -413,14 +416,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-width: 820px;
     margin: 0 auto;
     font-size: 19px;
+    text-align: justify;
 }
 
 .section-header .section-divider {
     display: block;
     width: 60px;
     height: 3px;
-    background: #1dc8cd;
-    background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+    background: #38b4fc;
+    background: linear-gradient(0deg, #38b4fc 0%, #55fabe 100%);
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -479,7 +483,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #our-story .content i {
     font-size: 20px;
     padding-right: 4px;
-    color: #1dc8cd;
+    color: #38b4fc;
 }
 
 #our-story .content ul {
@@ -528,8 +532,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #problem .icon i:before {
-    background: #1dc8cd;
-    background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+    background: #38b4fc;
+    background: linear-gradient(45deg, #38b4fc 0%, #55fabe 100%);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -555,8 +559,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-bottom: 10px;
 }
 
-/* Product Advanced Featuress Section
---------------------------------*/
+
 .content .content-row {
     padding: 60px 0 30px 0;
 }
@@ -579,6 +582,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     line-height: 24px;
     color: #777;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .content i {
@@ -591,8 +595,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .content i:before {
-    background: #1dc8cd;
-    background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+    background: #38b4fc;
+    background: linear-gradient(45deg, #38b4fc 0%, #55fabe 100%);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -657,6 +661,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .market-progress h5 {
     margin-bottom: 0;
+    text-align: justify;
 }
 
 #our-team {
@@ -703,10 +708,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 15px;
 }
 
+.member-profile p {
+    text-align: justify;
+}
+
 /* Call To Action Section
+#61ccef, #38b4fc);
 --------------------------------*/
+
 #epilogue {
-    background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/epilogue-bg.jpg) fixed center center;
+    background: linear-gradient(rgba(97, 204, 239, 0.65), rgba(56, 180, 252, 0.2)), url(../img/epilogue-bg.jpg) fixed center center;
     background-size: cover;
     padding: 80px 0;
 }
@@ -719,6 +730,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #epilogue .cta-text {
     color: #fff;
+    text-align: justify;
 }
 
 @media (min-width: 769px) {
@@ -744,8 +756,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #epilogue .cta-btn:hover {
-    background: #1dc8cd;
-    border: 2px solid #1dc8cd;
+    background: #38b4fc;
+    border: 2px solid #38b4fc;
 }
 
 #footer {
@@ -771,5 +783,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-links a:hover {
-    color: #1dc8cd;
+    color: #38b4fc;
 }

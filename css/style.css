@@ -236,6 +236,10 @@ h1, h2, h3, h4, h5, h6 {
     #nav-menu-container {
         display: none;
     }
+
+    #intro {
+        background: #38b4fc;
+    }
 }
 
 /* Nav Meu Styling */
@@ -742,6 +746,13 @@ body.mobile-nav-active #mobile-nav-toggle {
         display: flex;
         align-items: center;
         justify-content: flex-end;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #epilogue {
+        background: #38b4fc;
     }
 }
 

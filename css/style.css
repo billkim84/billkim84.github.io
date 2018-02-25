@@ -138,6 +138,10 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
 }
 
+#intro .intro-text-mobile {
+    display: none;
+}
+
 #intro h2 {
     margin: 30px 0 20px 0;
     padding: 0 15px;
@@ -151,6 +155,20 @@ h1, h2, h3, h4, h5, h6 {
     #intro h2 {
         font-size: 28px;
         line-height: 36px;
+    }
+
+    #intro .intro-text {
+        display: none;
+        text-align: left;
+        align-items: flex-start;
+        padding: 0 5vw;
+    }
+
+    #intro .intro-text-mobile {
+        display: flex;
+        font-size: 17vw;
+        font-weight: bold;
+        color: #fff;
     }
 }
 
@@ -417,7 +435,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     padding-bottom: 40px;
     color: #777;
-    font-style: italic;
 }
 
 .our-story .section-description {
